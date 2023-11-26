@@ -1,8 +1,10 @@
 import React from 'react'
 
+
+
 const Arboles = () => {
     return (
-    <div>Arboles</div>
+    <h1>Arboles</h1>
     )
 }
 

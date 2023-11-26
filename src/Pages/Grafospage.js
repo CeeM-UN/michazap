@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import ArrayComponent from '../componentes/Lineales';
 import ArrayImage from '../Images/array.jpg';
 import '../Styles/Linealespage.css';
-
+import Grafos from '../componentes/Grafos';
 
 const Grafospage = () => {
 	return (
@@ -13,12 +13,12 @@ const Grafospage = () => {
 		    </div>
                 <div className="contenedor-menu">
                     <div className="contenedor-izquierdo">
-                        <h2>Busqueda de chaza con array</h2>
-                        <div style={{ height: '20px' }}></div>
-                        <ArrayComponent />
+						<h2>Manejo de datos de chaza con grafo</h2>
+						<div style={{ height: '2%' }}></div>
+							
                     </div>
                     <div className="contenedor-derecho">
-                        <img src={ArrayImage} alt="Array" />
+						<Grafos/>
                     </div>
                 </div>
 		</Router>

@@ -12,6 +12,17 @@
 .navbar a {
     color: #ffffff; /* Cambia el color de la letra a blanco */
     text-decoration: none;
+    list-style-type: none; /* Quita los puntos de la lista */
+}
+
+
+.nav-item {
+    list-style-type: none; /* Quita los puntos de la lista */
+}
+
+
+.navbar ul {
+    list-style-type: none; /* Quita los puntos de la lista */
 }
 
 .navbar a:hover {
