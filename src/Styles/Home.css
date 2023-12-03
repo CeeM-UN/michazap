@@ -1,0 +1,126 @@
+
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-color: #1b1b32;
+    ;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.michazaApp-header {
+    background-color: #1b1b32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ajusta este valor a 80vw */
+    height: 1; /* Asume que la altura del encabezado es 60px */
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    height: 100vh;
+    background-color: #1b1b32;
+    margin-top: 5%;
+}
+
+.contenedor-titulo{
+    background-color: #1b1b32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Ajusta este valor a 80vw */
+    padding-top: 1%;
+}
+
+.contenedor-izquierdo, .contenedor-derecho {
+    background-color: rgb(255, 255, 255); /* Blanco transparente */
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%; /* Ajusta este valor a 80vw */
+    background-color: #1b1b32;
+    padding: 3%;
+}
+
+.contenedor-menu{
+    background-color: #1b1b32;
+    display: flex;
+    flex-direction: ;
+    align-items: justify;
+    justify-content: center;
+    width: 100%; /* Ajusta este valor a 80vw */
+    height: 1; /* Asume que la altura del encabezado es 60px */
+
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 0.40%;
+    margin: 1%;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 12px; /* Bordes redondeados */
+}
+
+
+
+h2 {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 1%;
+
+} 
+
+button {
+    background-color: #008000; /* Color verde */
+    border: none;
+    border-radius: 12px; /* Bordes redondeados */
+    color: #1b1b32; /* Color de texto */
+    padding: 10px 20px; /* Un poco más pequeños */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Un poco más pequeños */
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Transición fluida */
+    margin: 3%;
+}
+
+button:hover {
+    background-color: #ffffff; /* Blanco cuando el mouse está encima */
+    color: #000000; /* Letra negra cuando el mouse está encima */
+}
+
+
+p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 3%;
+}
+
+
+input, select {
+    width: 40%; /* Ajusta este valor según tus necesidades */
+}
+
+
+

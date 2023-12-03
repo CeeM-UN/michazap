@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #000000; /* Color de fondo negro amoled */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    display: flex; /* Alinea los elementos de la barra de navegación horizontalmente */
+    justify-content: space-around; /* Separa los elementos de la barra de navegación por porcentajes iguales */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); /* Añade una sombra a la barra de navegación */
+}
+
+.navbar a {
+    color: #ffffff; /* Cambia el color de la letra a blanco */
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #666;
+}
+
+.container-fluid{
+    width: 95%;
+    justify-content: space-around;
+    background-color: #000000; /* Color de fondo negro amoled */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    display: flex; /* Alinea los elementos de la barra de navegación horizontalmente */
+    justify-content: space-around; /* Separa los elementos de la barra de navegación por porcentajes iguales */
+}
