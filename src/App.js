@@ -17,12 +17,11 @@ function App() {
           <Route path="/home" component={Homepage} />
           <Route path="/lineales" component={Linealespage} />
           <Route path="/grafos" component={Grafospage} />
-          <Route path="/arbol" component={Arbolpage} />
+          <Route path="/arboles" component={Arbolpage} />
           {/* Asegúrate de agregar todas las rutas necesarias */}
           
         </Switch>
           <div className="contenedor-body">
-            <h3></h3>
 
           </div>
         </div>

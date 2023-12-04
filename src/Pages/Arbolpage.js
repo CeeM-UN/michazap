@@ -1,26 +1,27 @@
-import React from 'react'
-import { Router } from 'react-router-dom'
-import '../Styles/Linealespage.css';
-import ArrayComponent from '../componentes/Lineales';
-import ArrayImage from '../Images/array.jpg';
-
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import '../Styles/Arbolpage.css'; // Asegúrate de importar tu archivo CSS
+import Arboles from '../componentes/Arboles';
+import imagenIzquierda from '../Images/un.png';
+import imagenDerecha from '../Images/bst.jpg';
 
 const Arbolpage = () => {
-	return (
+    return (
+    <div className="arbolpage-container">
         <Router>
-            <div className="contenedor-titulo"/>
-            <div className="contenedor-menu">
-                <div className="contenedor-izquierdo">
-                    <h2>Busqueda de chaza con array</h2>
-                    <div style={{ height: '20px' }}></div>
-                    <ArrayComponent />
+            <div className="contenedor-titulo">
+                <img src={imagenIzquierda} alt="Imagen Izquierda" className="imagen-lateral izquierda" />
+                <h2 className="titulo">Binary Search Tree and Hasp</h2>
+                <img src={imagenDerecha} alt="Imagen Derecha" className="imagen-lateral derecha" />
             </div>
-            <div className="contenedor-derecho">
-                <img src={ArrayImage} alt="Array" />
+            <div className="main-title">
+                <h2>Main BST and Hasp</h2>
+                <Arboles/>
             </div>
-            </div>
-        </Router> 
-    )
+
+        </Router>
+    </div>
+    );
 }
 
-export default Arbolpage   
+export default Arbolpage;

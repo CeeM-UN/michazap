@@ -20,7 +20,7 @@ const Homepage = () => {
                     <Route path="/lineales" component={Linealespage} />
                     <Route path="/grafos" component={Grafospage} />
                     <Route path="/arbol" component={Arbolpage} />
-                    {/* Asegúrate de agregar todas las rutas necesarias */}
+                    {/* posibilidad de agregar mas rutas */}
                 </Switch>
                 
 
