@@ -13,8 +13,8 @@ function Arboles() {
     const [searchPath, setSearchPath] = useState([]);
     const [binaryTree, setBinaryTree] = useState(new BinaryTree());
     const [treeContainerWidth, setTreeContainerWidth] = useState(400);
-    const adjectives = ["Elegante", "Alegre", "Del Tesoro", /*...*/];
-    const nouns = ["Esquina", "Armario", "Tienda", /*...*/];
+    const adjectives = ["Elegante", "Alegre", "Del Tesoro", "Brillante", "De la Belleza", "Encantador", "Del Capricho", "Asombroso", "Del Tío", "Mágico", "Fantástico", "Maravilloso", "Increíble", "Sorprendente", "Divertido", "Fascinante", "Extraordinario", "Impresionante", "Espectacular", "Estupendo"];
+    const nouns = ["Esquina", "Armario", "Tienda", "Bazar", "Boutique", "Emporio", "Casa", "Almacén", "Tiendita", "Mercado", "Rincón", "Establecimiento", "Negocio", "Puesto", "Local", "Tiendecita", "Comercio", "Mercadillo", "Boutiquín", "Emporito"];
     const [searchTime, setSearchTime] = useState(0);
     const [foundItemId, setFoundItemId] = useState(null);
 
