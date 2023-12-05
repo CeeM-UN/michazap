@@ -14,7 +14,7 @@ function App() {
         <Navbarly/>
       <div className= "contenedor-principal">
         <Switch>
-          <Route path="/home" component={Homepage} />
+          <Route path="/Homepage" component={Homepage} />
           <Route path="/lineales" component={Linealespage} />
           <Route path="/grafos" component={Grafospage} />
           <Route path="/arboles" component={Arbolpage} />
